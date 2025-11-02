@@ -1,0 +1,41 @@
+export const PAGES = {
+  home: 'https://uitestingplayground.com',
+  dynamicId: 'https://uitestingplayground.com/dynamicid',
+  classAttribute: 'https://uitestingplayground.com/classattr',
+  hiddenLayers: 'https://uitestingplayground.com/hiddenlayers',
+  loadDelay: 'https://uitestingplayground.com/loaddelay',
+  click: 'https://uitestingplayground.com/click',
+  ajaxData: 'https://uitestingplayground.com/ajax',
+  clientDelay: 'https://uitestingplayground.com/clientdelay',
+  click: 'https://uitestingplayground.com/click',
+  textInput: 'https://uitestingplayground.com/textinput',
+  scrollbars: 'https://uitestingplayground.com/scrollbars',
+  shadowDOM: 'https://uitestingplayground.com/shadowdom',
+  dynamicTable: 'https://uitestingplayground.com/dynamictable',
+  verifyText: 'https://uitestingplayground.com/verifytext',
+  progressBar: 'https://uitestingplayground.com/progressbar'
+};
+
+export const SELECTORS = {
+  dynamicButton: 'button',
+  classButton: '.btn-primary',
+  buttonClickedMsg: 'Primary button pressed',
+  greenButton: '#greenButton',
+  blueButton: '#blueButton',
+  loadDelayButton: '#button',
+  ajaxButton: '#ajaxButton',
+  ajaxLoadedText: 'Data loaded with AJAX get request.',
+  clientDelayButton: '#ajaxButton', 
+  clientDelayText: 'Data calculated on the client side.', 
+  clickButton: '#badButton',
+  textInputButtonInitial: "Button That Should Change it's Name Based on Input Value",
+  textInputField: '#newButtonName',
+  textInputButton: '#updatingButton',
+  hidingButton: '#hidingButton',
+  tableRows: 'div[role="rowgroup"] > div[role="row"]',
+  tableHeader: 'div[role="rowgroup"] > div[role="row"]:first-child > span[role="columnheader"]',
+  cpuLabel: 'p.bg-warning',
+  chromeRowText: 'Chrome',
+  welcomeText: '.badge-secondary',
+  expectedText: 'Welcome UserName!'
+};
