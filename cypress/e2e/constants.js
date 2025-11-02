@@ -10,7 +10,6 @@ export const PAGES = {
   click: 'https://uitestingplayground.com/click',
   textInput: 'https://uitestingplayground.com/textinput',
   scrollbars: 'https://uitestingplayground.com/scrollbars',
-  shadowDOM: 'https://uitestingplayground.com/shadowdom',
   dynamicTable: 'https://uitestingplayground.com/dynamictable',
   verifyText: 'https://uitestingplayground.com/verifytext',
   progressBar: 'https://uitestingplayground.com/progressbar'
@@ -35,7 +34,13 @@ export const SELECTORS = {
   tableRows: 'div[role="rowgroup"] > div[role="row"]',
   tableHeader: 'div[role="rowgroup"] > div[role="row"]:first-child > span[role="columnheader"]',
   cpuLabel: 'p.bg-warning',
-  chromeRowText: 'Chrome',
-  welcomeText: '.badge-secondary',
-  expectedText: 'Welcome UserName!'
+  welcomeSpan: '.bg-primary > span',
+  welcomeUser: 'Welcome UserName!',
+  progressBarPage: '/progressbar',
+  startButton: '#startButton',
+  stopButton: '#stopButton',
+  progressBar: '#progressBar',
+  resultLabel: '#result',
 };
+
+export const TARGET_RATIO = 75;

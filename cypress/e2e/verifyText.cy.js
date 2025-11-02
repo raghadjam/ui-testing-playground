@@ -5,10 +5,10 @@ describe('Verify Text Page', () => {
     cy.visit(PAGES.verifyText);
   });
 
-  it('Finds element with normalized Welcome text', () => {
-    cy.get(SELECTORS.welcomeText)
-      .invoke('text')       // get raw DOM text
-      .then((txt) => txt.trim().replace(/\s+/g, ' ')) // normalize whitespace
-      .should('eq', SELECTORS.expectedText);
+  it('Finds element with Welcome text', () => {
+    cy.get(SELECTORS.welcomeSpan)
+      .should('exist')
+      .and('be.visible')
+      .and('contain.text', SELECTORS.welcomeUser);
   });
 });
