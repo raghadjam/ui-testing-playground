@@ -25,10 +25,5 @@ npm install
 npx cypress open
 ```
 
-Run tests using the Cypress UI or:
-
-```bash
-npx cypress run
-```
 
 ---
